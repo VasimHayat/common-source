@@ -1,0 +1,91 @@
+software link :- https://drive.google.com/file/d/1cMZK-7GzbELYlITRnCiuGVV2T_0rZv_G/view
+
+Hi, in this tutorial I will show you how to decrypt pluralsight videos so that you can watch them without the pluralsight offline player app and also transfer them to others.
+NOTE : PLEASE BACKUP YOUR ENCRYPTED COURSES BEFORE STARTING…..
+STEP ONE
+you need to have an account with pluralsight but if you already have an account navigate to the website to search for the courses you wish to download. for example
+
+pluralsight home
+After selecting the course you want to download, you will be taken to the course page where you can download it and then you will be prompted to open the video with the associated app when you click on download which is the pluralsight offline app. example
+
+
+So, just click open pluralsight, if you don’t have the app, it will be downloaded. after installation, the course will be downloading for you to watch at a later time. the good thing about the offline app is that it allows having access to the video without data but it has some limitations.
+
+This tutorial can’t be shared with others or transferred to another device.
+To be able to transfer the videos or share them, we need to decrypt them to a local folder on our computer.
+STEP TWO
+It’s time to decrypt!
+You will need to download the decrypting app here
+unzip after downloading, you should have a folder structure like the image below
+
+run the application, after running, you should have console application running.
+
+after running the application, open your command line and navigate to the app folder.
+
+Before I go further, you need to know where the pluralsight offline app is installed. By default, it’s always installed in the Appdata local directory.
+
+if your Appdata folder is not visible, you will need to unhide it. All encrypted videos are inside the course folder.
+This is the only course I have, you can have more.
+After navigating to the decrypting App in your command line, while the decrypting is still running, run the command below.
+DecryptPluralSightVideos /F “C:\Users\thepe\AppData\Local\Pluralsight\courses’’ /DB “C:\Users\thepe\AppData\Local\Pluralsight\pluralsight.db” /TRANS /RM /OUT “C:\PluralsightCourses”
+
+Please make sure you adjust the path yours by just changing the “thepe” to your corresponding directory.
+the first part of the command shows were the courses and the DB is located and while the out part show where you wish to save the videos.
+I have created a folder called PluralsightCourses in my C folder where the decrypted folder will be downloaded.
+
+So, the decrypted videos will be saved in this folder.
+make sure you create the output folder before pressing enter to run the command.
+After running the command, the videos will start decrypting.
+
+After decrypting, the decrypted video will appear in the out folder you created.
+
+After decrypting the video, make sure you go back to the pluralsight courses folder to delete the encrypted course in order not to be decrypted next time you are decrypting.
+
+Delete all encrypted videos after decrypting process has finished.
+I hope this was helpful.
+Thanks for reading. And don’t forget to clap
+Thanks to Nguyễn Bảo Vĩnh Lộc for creating the decrypting app.
+992
+Pluralsight
+Decryption
+Videos
+Course
+Learning
+992 claps
+
+
+Lawal Abdulateef Olawale
+WRITTEN BY
+
+Lawal Abdulateef Olawale
+Follow
+An active learner with low attention deficit.
+See responses (31)
+More From Medium
+Related reads
+How to deploy .NET Core Web API to Azure
+Fei Li
+Fei Li
+May 11, 2019 · 5 min read
+129
+Related reads
+Introduction to Worker Services in .NET Core 3.0
+Nick Fane
+Nick Fane
+Jun 12, 2019 · 6 min read
+852
+Related reads
+The .NET Framework is Done!
+Andy Watt
+Andy Watt
+Sep 21, 2018 · 4 min read
+4.1K
+Discover Medium
+Welcome to a place where words matter. On Medium, smart voices and original ideas take center stage - with no ads in sight. Watch
+Make Medium yours
+Follow all the topics you care about, and we’ll deliver the best stories for you to your homepage and inbox. Explore
+Become a member
+Get unlimited access to the best stories on Medium — and support writers while you’re at it. Just $5/month. Upgrade
+About
+Help
+Legal
