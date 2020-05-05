@@ -1,11 +1,11 @@
 public static void copyFile() {
-		String bucketName = "cdnhubworks";
+		String bucketName = "";
 		String clientRegion = "us-west-1";
-		String accessKey = "AKIAJ37JC6KOWBOHDXXA";
-		String secretKey = "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";
+		String accessKey = "";
+		String secretKey = "";
 
-		String sourcePath = "hw-img/DEV/Mohammad Vasim/HW_03/24902/EOCustTaskSetup_5273_1.png";
-		String destPath = "hw-img/DEV/Mohammad Vasim/HW_03/24902_2/EOCustTaskSetup_5441_0.png";
+		String sourcePath = "demo/HW_03/001/Enity.png";
+		String destPath = "demo/HW_03/002/Enity.png";
 
 		try {
 
